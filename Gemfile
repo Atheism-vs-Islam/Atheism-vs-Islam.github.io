@@ -1,3 +1,3 @@
 source "https://rubygems.org"
 gem "jekyll"
-gem "jekyll-theme-minimal" # Or replace with your theme if different
+gem "minima" # Add this line if it’s not already there
