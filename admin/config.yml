@@ -1,0 +1,15 @@
+backend:
+  name: github
+  repo: Atheism-vs-Islam/Atheism-vs-Islam.github.io # Replace with your GitHub username and repo name (e.g., username/username.github.io)
+media_folder: "assets/uploads" # Where images will go
+public_folder: "/assets/uploads"
+collections:
+  - name: "pages"
+    label: "Pages"
+    folder: "./"
+    create: true
+    slug: "{{slug}}.md"
+    fields:
+      - { label: "Layout", name: "layout", widget: "hidden", default: "default" }
+      - { label: "Title", name: "title", widget: "string" }
+      - { label: "Body", name: "body", widget: "markdown" }
